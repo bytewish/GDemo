@@ -10,7 +10,7 @@ afterEvaluate{
             from(components.findByName(variant.name))
             groupId = "com.gx"
             artifactId = "glib"
-            version = "0.0.1"
+            version = "0.0.2"
         }
     }
 }
@@ -48,7 +48,4 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.recyclerview)
-
-    // Supports checkbox with select all, deselect, and partial selection options.
-    implementation(libs.indeterminate.checkbox)
 }
